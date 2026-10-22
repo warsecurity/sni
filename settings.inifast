@@ -1,0 +1,18 @@
+[mode]
+connection_mode = 1
+
+[config]
+payload = CONNECT https://v4.netpap.co.ke:UC19O866GH HTTP/1.1[crlf]Host: https://v4.netpap.co.ke:UC19O866GH[crlf]Connection: keep-alive[crlf]X-Online-Host: app.junglespeed.co.ke:UC19O866GH[crlf]X-Forward-Host: app.junglespeed.co.ke:UC19O866GH[crlf][crlf]
+proxyip = 185.143.228.52
+proxyport = 80
+auto_replace = 1
+
+[ssh]
+host = 185.143.228.52
+port = 443
+username = xman
+password = xman
+
+[sni]
+server_name = www.example.com
+
